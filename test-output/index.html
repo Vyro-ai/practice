@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testngobjec.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">44 methods, 4 failed,   40 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.google_bg_object_test" class="method navigator-link" hash-for-method="C_Testcase3">C_Testcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_mainscreen" class="method navigator-link" hash-for-method="D_Testcase4">D_Testcase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Objects_backgrounds_Test" class="method navigator-link" hash-for-method="G_Testcase7">G_Testcase7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Objects_backgrounds_Test" class="method navigator-link" hash-for-method="H_Testcase8">H_Testcase8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Home_object_Test" class="method navigator-link" hash-for-method="A_Gallery_1">A_Gallery_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_mainscreen" class="method navigator-link" hash-for-method="A_Testcase1">A_Testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.google_bg_object_test" class="method navigator-link" hash-for-method="A_Testcase1">A_Testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.object_mainscreen_test" class="method navigator-link" hash-for-method="A_Testcase1">A_Testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Objects_backgrounds_Test" class="method navigator-link" hash-for-method="A_Testcase1">A_Testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_Test" class="method navigator-link" hash-for-method="A_Testcase1">A_Testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Home_object_Test" class="method navigator-link" hash-for-method="B_Gallery_2">B_Gallery_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_Test" class="method navigator-link" hash-for-method="B_Testcase2">B_Testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_mainscreen" class="method navigator-link" hash-for-method="B_Testcase2">B_Testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.google_bg_object_test" class="method navigator-link" hash-for-method="B_Testcase2">B_Testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Objects_backgrounds_Test" class="method navigator-link" hash-for-method="B_Testcase2">B_Testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.object_mainscreen_test" class="method navigator-link" hash-for-method="B_Testcase2">B_Testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Home_object_Test" class="method navigator-link" hash-for-method="C_Gallery_Valid_3">C_Gallery_Valid_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Objects_backgrounds_Test" class="method navigator-link" hash-for-method="C_Testcase3">C_Testcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.object_mainscreen_test" class="method navigator-link" hash-for-method="C_Testcase3">C_Testcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_mainscreen" class="method navigator-link" hash-for-method="C_Testcase3">C_Testcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_Test" class="method navigator-link" hash-for-method="C_Testcase3">C_Testcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Home_object_Test" class="method navigator-link" hash-for-method="D_Gallery_Valid_4">D_Gallery_Valid_4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Objects_backgrounds_Test" class="method navigator-link" hash-for-method="D_Testcase4">D_Testcase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_Test" class="method navigator-link" hash-for-method="D_Testcase4">D_Testcase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.google_bg_object_test" class="method navigator-link" hash-for-method="D_Testcase4">D_Testcase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Home_object_Test" class="method navigator-link" hash-for-method="E_Gallery_Valid_5">E_Gallery_Valid_5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.google_bg_object_test" class="method navigator-link" hash-for-method="E_Testcase5">E_Testcase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_mainscreen" class="method navigator-link" hash-for-method="E_Testcase5">E_Testcase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_Test" class="method navigator-link" hash-for-method="E_Testcase5">E_Testcase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Objects_backgrounds_Test" class="method navigator-link" hash-for-method="E_Testcase5">E_Testcase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Home_object_Test" class="method navigator-link" hash-for-method="F_Gallery_Valid_6">F_Gallery_Valid_6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_Test" class="method navigator-link" hash-for-method="F_Testcase6">F_Testcase6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Objects_backgrounds_Test" class="method navigator-link" hash-for-method="F_Testcase6">F_Testcase6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_mainscreen" class="method navigator-link" hash-for-method="F_Testcase6">F_Testcase6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.google_bg_object_test" class="method navigator-link" hash-for-method="F_Testcase6">F_Testcase6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Home_object_Test" class="method navigator-link" hash-for-method="G_Gallery_7">G_Gallery_7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.google_bg_object_test" class="method navigator-link" hash-for-method="G_Testcase7">G_Testcase7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_mainscreen" class="method navigator-link" hash-for-method="G_Testcase7">G_Testcase7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_Test" class="method navigator-link" hash-for-method="G_Testcase7">G_Testcase7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Home_object_Test" class="method navigator-link" hash-for-method="H_Gallery_8">H_Gallery_8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.px_bg_object_mainscreen" class="method navigator-link" hash-for-method="H_Testcase8">H_Testcase8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Home_object_Test" class="method navigator-link" hash-for-method="I_Gallery_9">I_Gallery_9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Home_object_Test" class="method navigator-link" hash-for-method="J_Gallery_10">J_Gallery_10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Home_object_Test" class="method navigator-link" hash-for-method="K_Gallery_11">K_Gallery_11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Testcases.Objects_backgrounds_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="G_Testcase7">
+                  </a> <!-- G_Testcase7 -->
+                  <span class="method-name">G_Testcase7</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at io.appium.java_client.pagefactory.ElementListInterceptor.getObject(ElementListInterceptor.java:40)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfAListOfElements.intercept(InterceptorOfAListOfElements.java:49)
+	at $java.util.ArrayList$$EnhancerByCGLIB$$b5855c01.get(&lt;generated&gt;)
+	at Testcases.Objects_backgrounds_Test.G_Testcase7(Objects_backgrounds_Test.java:522)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="H_Testcase8">
+                  </a> <!-- H_Testcase8 -->
+                  <span class="method-name">H_Testcase8</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text=&apos;Shadows&apos;]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at Testcases.Objects_backgrounds_Test.H_Testcase8(Objects_backgrounds_Test.java:591)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5da57a64 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 31 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text=&apos;Shadows&apos;]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Vyro-MacBook.local&apos;, ip: &apos;fe80:0:0:0:45f:1a2f:8ab5:37b6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 33 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Testcases.google_bg_object_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="C_Testcase3">
+                  </a> <!-- C_Testcase3 -->
+                  <span class="method-name">C_Testcase3</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+	at Testcases.google_bg_object_test.C_Testcase3(google_bg_object_test.java:120)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Testcases.px_bg_object_mainscreen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="D_Testcase4">
+                  </a> <!-- D_Testcase4 -->
+                  <span class="method-name">D_Testcase4</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+	at Testcases.px_bg_object_mainscreen.D_Testcase4(px_bg_object_mainscreen.java:149)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.px_bg_object_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="A_Testcase1">
+                  </a> <!-- A_Testcase1 -->
+                  <span class="method-name">A_Testcase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="B_Testcase2">
+                  </a> <!-- B_Testcase2 -->
+                  <span class="method-name">B_Testcase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="C_Testcase3">
+                  </a> <!-- C_Testcase3 -->
+                  <span class="method-name">C_Testcase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="D_Testcase4">
+                  </a> <!-- D_Testcase4 -->
+                  <span class="method-name">D_Testcase4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="E_Testcase5">
+                  </a> <!-- E_Testcase5 -->
+                  <span class="method-name">E_Testcase5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="F_Testcase6">
+                  </a> <!-- F_Testcase6 -->
+                  <span class="method-name">F_Testcase6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="G_Testcase7">
+                  </a> <!-- G_Testcase7 -->
+                  <span class="method-name">G_Testcase7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.Home_object_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="A_Gallery_1">
+                  </a> <!-- A_Gallery_1 -->
+                  <span class="method-name">A_Gallery_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="B_Gallery_2">
+                  </a> <!-- B_Gallery_2 -->
+                  <span class="method-name">B_Gallery_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="C_Gallery_Valid_3">
+                  </a> <!-- C_Gallery_Valid_3 -->
+                  <span class="method-name">C_Gallery_Valid_3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="D_Gallery_Valid_4">
+                  </a> <!-- D_Gallery_Valid_4 -->
+                  <span class="method-name">D_Gallery_Valid_4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="E_Gallery_Valid_5">
+                  </a> <!-- E_Gallery_Valid_5 -->
+                  <span class="method-name">E_Gallery_Valid_5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="F_Gallery_Valid_6">
+                  </a> <!-- F_Gallery_Valid_6 -->
+                  <span class="method-name">F_Gallery_Valid_6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="G_Gallery_7">
+                  </a> <!-- G_Gallery_7 -->
+                  <span class="method-name">G_Gallery_7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="H_Gallery_8">
+                  </a> <!-- H_Gallery_8 -->
+                  <span class="method-name">H_Gallery_8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="I_Gallery_9">
+                  </a> <!-- I_Gallery_9 -->
+                  <span class="method-name">I_Gallery_9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="J_Gallery_10">
+                  </a> <!-- J_Gallery_10 -->
+                  <span class="method-name">J_Gallery_10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="K_Gallery_11">
+                  </a> <!-- K_Gallery_11 -->
+                  <span class="method-name">K_Gallery_11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.Objects_backgrounds_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="A_Testcase1">
+                  </a> <!-- A_Testcase1 -->
+                  <span class="method-name">A_Testcase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="B_Testcase2">
+                  </a> <!-- B_Testcase2 -->
+                  <span class="method-name">B_Testcase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="C_Testcase3">
+                  </a> <!-- C_Testcase3 -->
+                  <span class="method-name">C_Testcase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="D_Testcase4">
+                  </a> <!-- D_Testcase4 -->
+                  <span class="method-name">D_Testcase4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="E_Testcase5">
+                  </a> <!-- E_Testcase5 -->
+                  <span class="method-name">E_Testcase5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="F_Testcase6">
+                  </a> <!-- F_Testcase6 -->
+                  <span class="method-name">F_Testcase6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.object_mainscreen_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="A_Testcase1">
+                  </a> <!-- A_Testcase1 -->
+                  <span class="method-name">A_Testcase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="B_Testcase2">
+                  </a> <!-- B_Testcase2 -->
+                  <span class="method-name">B_Testcase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="C_Testcase3">
+                  </a> <!-- C_Testcase3 -->
+                  <span class="method-name">C_Testcase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.google_bg_object_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="A_Testcase1">
+                  </a> <!-- A_Testcase1 -->
+                  <span class="method-name">A_Testcase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="B_Testcase2">
+                  </a> <!-- B_Testcase2 -->
+                  <span class="method-name">B_Testcase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="D_Testcase4">
+                  </a> <!-- D_Testcase4 -->
+                  <span class="method-name">D_Testcase4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="E_Testcase5">
+                  </a> <!-- E_Testcase5 -->
+                  <span class="method-name">E_Testcase5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="F_Testcase6">
+                  </a> <!-- F_Testcase6 -->
+                  <span class="method-name">F_Testcase6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="G_Testcase7">
+                  </a> <!-- G_Testcase7 -->
+                  <span class="method-name">G_Testcase7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.px_bg_object_mainscreen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="A_Testcase1">
+                  </a> <!-- A_Testcase1 -->
+                  <span class="method-name">A_Testcase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="B_Testcase2">
+                  </a> <!-- B_Testcase2 -->
+                  <span class="method-name">B_Testcase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="C_Testcase3">
+                  </a> <!-- C_Testcase3 -->
+                  <span class="method-name">C_Testcase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="E_Testcase5">
+                  </a> <!-- E_Testcase5 -->
+                  <span class="method-name">E_Testcase5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="F_Testcase6">
+                  </a> <!-- F_Testcase6 -->
+                  <span class="method-name">F_Testcase6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="G_Testcase7">
+                  </a> <!-- G_Testcase7 -->
+                  <span class="method-name">G_Testcase7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="H_Testcase8">
+                  </a> <!-- H_Testcase8 -->
+                  <span class="method-name">H_Testcase8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/aqsa/eclipse-workspace/BGChangerwithoutapplitools/testngobjec.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listner.TestListner2&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.Home_object_Test&quot;/&gt;
+      &lt;class name=&quot;Testcases.px_bg_object_Test&quot;/&gt;
+      &lt;class name=&quot;Testcases.px_bg_object_mainscreen&quot;/&gt;
+      &lt;class name=&quot;Testcases.google_bg_object_test&quot;/&gt;
+      &lt;class name=&quot;Testcases.object_mainscreen_test&quot;/&gt;
+      &lt;class name=&quot;Testcases.Objects_backgrounds_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(44);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'A_Testcase1')
+data.setCell(0, 2, 'Testcases.Objects_backgrounds_Test')
+data.setCell(0, 3, 182331);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'E_Testcase5')
+data.setCell(1, 2, 'Testcases.Objects_backgrounds_Test')
+data.setCell(1, 3, 135002);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'F_Testcase6')
+data.setCell(2, 2, 'Testcases.Objects_backgrounds_Test')
+data.setCell(2, 3, 124252);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'D_Testcase4')
+data.setCell(3, 2, 'Testcases.Objects_backgrounds_Test')
+data.setCell(3, 3, 118273);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'C_Testcase3')
+data.setCell(4, 2, 'Testcases.Objects_backgrounds_Test')
+data.setCell(4, 3, 115554);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'B_Testcase2')
+data.setCell(5, 2, 'Testcases.Objects_backgrounds_Test')
+data.setCell(5, 3, 112783);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'G_Testcase7')
+data.setCell(6, 2, 'Testcases.Objects_backgrounds_Test')
+data.setCell(6, 3, 50963);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'E_Testcase5')
+data.setCell(7, 2, 'Testcases.px_bg_object_Test')
+data.setCell(7, 3, 40160);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'F_Testcase6')
+data.setCell(8, 2, 'Testcases.px_bg_object_mainscreen')
+data.setCell(8, 3, 39760);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'E_Testcase5')
+data.setCell(9, 2, 'Testcases.google_bg_object_test')
+data.setCell(9, 3, 39492);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'C_Testcase3')
+data.setCell(10, 2, 'Testcases.px_bg_object_mainscreen')
+data.setCell(10, 3, 33701);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'H_Testcase8')
+data.setCell(11, 2, 'Testcases.Objects_backgrounds_Test')
+data.setCell(11, 3, 30020);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'K_Gallery_11')
+data.setCell(12, 2, 'Testcases.Home_object_Test')
+data.setCell(12, 3, 17470);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'G_Testcase7')
+data.setCell(13, 2, 'Testcases.px_bg_object_mainscreen')
+data.setCell(13, 3, 12780);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'F_Gallery_Valid_6')
+data.setCell(14, 2, 'Testcases.Home_object_Test')
+data.setCell(14, 3, 12008);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'F_Testcase6')
+data.setCell(15, 2, 'Testcases.px_bg_object_Test')
+data.setCell(15, 3, 11906);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'F_Testcase6')
+data.setCell(16, 2, 'Testcases.google_bg_object_test')
+data.setCell(16, 3, 11597);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'B_Testcase2')
+data.setCell(17, 2, 'Testcases.px_bg_object_Test')
+data.setCell(17, 3, 11544);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'J_Gallery_10')
+data.setCell(18, 2, 'Testcases.Home_object_Test')
+data.setCell(18, 3, 11127);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'B_Testcase2')
+data.setCell(19, 2, 'Testcases.google_bg_object_test')
+data.setCell(19, 3, 10868);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'B_Testcase2')
+data.setCell(20, 2, 'Testcases.px_bg_object_mainscreen')
+data.setCell(20, 3, 10155);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'G_Testcase7')
+data.setCell(21, 2, 'Testcases.px_bg_object_Test')
+data.setCell(21, 3, 9808);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'H_Testcase8')
+data.setCell(22, 2, 'Testcases.px_bg_object_mainscreen')
+data.setCell(22, 3, 9434);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'G_Testcase7')
+data.setCell(23, 2, 'Testcases.google_bg_object_test')
+data.setCell(23, 3, 9360);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'C_Testcase3')
+data.setCell(24, 2, 'Testcases.px_bg_object_Test')
+data.setCell(24, 3, 9158);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'D_Testcase4')
+data.setCell(25, 2, 'Testcases.px_bg_object_mainscreen')
+data.setCell(25, 3, 7958);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'A_Gallery_1')
+data.setCell(26, 2, 'Testcases.Home_object_Test')
+data.setCell(26, 3, 7701);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'B_Testcase2')
+data.setCell(27, 2, 'Testcases.object_mainscreen_test')
+data.setCell(27, 3, 7424);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'C_Testcase3')
+data.setCell(28, 2, 'Testcases.object_mainscreen_test')
+data.setCell(28, 3, 5466);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'C_Gallery_Valid_3')
+data.setCell(29, 2, 'Testcases.Home_object_Test')
+data.setCell(29, 3, 5342);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'C_Testcase3')
+data.setCell(30, 2, 'Testcases.google_bg_object_test')
+data.setCell(30, 3, 5235);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'D_Testcase4')
+data.setCell(31, 2, 'Testcases.google_bg_object_test')
+data.setCell(31, 3, 4494);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'D_Testcase4')
+data.setCell(32, 2, 'Testcases.px_bg_object_Test')
+data.setCell(32, 3, 4401);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'A_Testcase1')
+data.setCell(33, 2, 'Testcases.px_bg_object_mainscreen')
+data.setCell(33, 3, 4162);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'E_Testcase5')
+data.setCell(34, 2, 'Testcases.px_bg_object_mainscreen')
+data.setCell(34, 3, 3864);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'G_Gallery_7')
+data.setCell(35, 2, 'Testcases.Home_object_Test')
+data.setCell(35, 3, 3707);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'A_Testcase1')
+data.setCell(36, 2, 'Testcases.object_mainscreen_test')
+data.setCell(36, 3, 3126);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'A_Testcase1')
+data.setCell(37, 2, 'Testcases.px_bg_object_Test')
+data.setCell(37, 3, 2649);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'H_Gallery_8')
+data.setCell(38, 2, 'Testcases.Home_object_Test')
+data.setCell(38, 3, 2490);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'A_Testcase1')
+data.setCell(39, 2, 'Testcases.google_bg_object_test')
+data.setCell(39, 3, 2318);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'D_Gallery_Valid_4')
+data.setCell(40, 2, 'Testcases.Home_object_Test')
+data.setCell(40, 3, 2106);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'E_Gallery_Valid_5')
+data.setCell(41, 2, 'Testcases.Home_object_Test')
+data.setCell(41, 3, 1242);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'B_Gallery_2')
+data.setCell(42, 2, 'Testcases.Home_object_Test')
+data.setCell(42, 3, 1053);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'I_Gallery_9')
+data.setCell(43, 2, 'Testcases.Home_object_Test')
+data.setCell(43, 3, 847);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Testcases.px_bg_object_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Testcases.Objects_backgrounds_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Testcases.object_mainscreen_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Testcases.google_bg_object_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Testcases.px_bg_object_mainscreen</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Home_object_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">A_Gallery_1</span>
+                <span class="method-start">14474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">B_Gallery_2</span>
+                <span class="method-start">22180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">C_Gallery_Valid_3</span>
+                <span class="method-start">23234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">D_Gallery_Valid_4</span>
+                <span class="method-start">28577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">E_Gallery_Valid_5</span>
+                <span class="method-start">30684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">F_Gallery_Valid_6</span>
+                <span class="method-start">31927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">G_Gallery_7</span>
+                <span class="method-start">43936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">H_Gallery_8</span>
+                <span class="method-start">47644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">I_Gallery_9</span>
+                <span class="method-start">50135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">J_Gallery_10</span>
+                <span class="method-start">50983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">K_Gallery_11</span>
+                <span class="method-start">62111 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.px_bg_object_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">A_Testcase1</span>
+                <span class="method-start">79584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">B_Testcase2</span>
+                <span class="method-start">82234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">C_Testcase3</span>
+                <span class="method-start">93779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">D_Testcase4</span>
+                <span class="method-start">102938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">E_Testcase5</span>
+                <span class="method-start">107340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">F_Testcase6</span>
+                <span class="method-start">147501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">G_Testcase7</span>
+                <span class="method-start">159408 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.px_bg_object_mainscreen</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">A_Testcase1</span>
+                <span class="method-start">169218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">B_Testcase2</span>
+                <span class="method-start">173380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">C_Testcase3</span>
+                <span class="method-start">183536 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">D_Testcase4</span>
+                <span class="method-start">217238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">E_Testcase5</span>
+                <span class="method-start">226337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">F_Testcase6</span>
+                <span class="method-start">230202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">G_Testcase7</span>
+                <span class="method-start">269963 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">H_Testcase8</span>
+                <span class="method-start">282744 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.google_bg_object_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">A_Testcase1</span>
+                <span class="method-start">292179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">B_Testcase2</span>
+                <span class="method-start">294498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">C_Testcase3</span>
+                <span class="method-start">305367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">D_Testcase4</span>
+                <span class="method-start">312115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">E_Testcase5</span>
+                <span class="method-start">316610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">F_Testcase6</span>
+                <span class="method-start">356102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">G_Testcase7</span>
+                <span class="method-start">367700 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.object_mainscreen_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">A_Testcase1</span>
+                <span class="method-start">377061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">B_Testcase2</span>
+                <span class="method-start">380188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">C_Testcase3</span>
+                <span class="method-start">387613 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Objects_backgrounds_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">A_Testcase1</span>
+                <span class="method-start">393080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">B_Testcase2</span>
+                <span class="method-start">575412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">C_Testcase3</span>
+                <span class="method-start">688196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">D_Testcase4</span>
+                <span class="method-start">803751 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">E_Testcase5</span>
+                <span class="method-start">922025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">F_Testcase6</span>
+                <span class="method-start">1057028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">G_Testcase7</span>
+                <span class="method-start">1181281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">H_Testcase8</span>
+                <span class="method-start">1233236 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Home_object_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">1264241 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Listner.TestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="Testcases.Px_bg_Test">
+        <methods>
+          <include name="F_Testcase6"/>
+          <include name="A_Testcase1"/>
+          <include name="D_Testcase4"/>
+          <include name="C_Testcase3"/>
+          <include name="B_Testcase2"/>
+          <include name="beforeTest"/>
+          <include name="E_Testcase5"/>
+          <include name="G_Testcase7"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases.Px_bg_Test -->
+      <class name="Testcases.settings_test">
+        <methods>
+          <include name="G_Testcase7"/>
+          <include name="H_Testcase8"/>
+          <include name="J_Testcase10"/>
+          <include name="M_Testcase13"/>
+          <include name="E_Testcase5"/>
+          <include name="beforeTest"/>
+          <include name="D_Testcase4"/>
+          <include name="K_Testcase11"/>
+          <include name="L_Testcase12"/>
+          <include name="F_Testcase6"/>
+          <include name="I_Testcase9"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases.settings_test -->
+      <class name="Testcases.Google_bg_Test">
+        <methods>
+          <include name="A_Testcase1"/>
+          <include name="B_Testcase2"/>
+          <include name="D_Testcase4"/>
+          <include name="G_Testcase7"/>
+          <include name="beforeTest"/>
+          <include name="E_Testcase5"/>
+          <include name="C_Testcase3"/>
+          <include name="F_Testcase6"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases.Google_bg_Test -->
+      <class name="Testcases.Home_Test">
+        <methods>
+          <include name="E_Gallery_Valid_5"/>
+          <include name="I_Gallery_Valid_9"/>
+          <include name="J_Gallery_Valid_10"/>
+          <include name="D_Gallery_Valid_4"/>
+          <include name="beforeTest"/>
+          <include name="G_Gallery_Valid_7"/>
+          <include name="A_Gallery_Invalid_1"/>
+          <include name="B_Gallery_Invalid_2"/>
+          <include name="K_Gallery_Valid_11"/>
+          <include name="F_Gallery_Valid_6"/>
+          <include name="H_Gallery_Valid_8"/>
+          <include name="C_Gallery_Valid_3"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases.Home_Test -->
+      <class name="Testcases.Px_bg_mainscreen">
+        <methods>
+          <include name="A_Testcase1"/>
+          <include name="G_Testcase7"/>
+          <include name="D_Testcase4"/>
+          <include name="C_Testcase3"/>
+          <include name="F_Testcase6"/>
+          <include name="H_Testcase8"/>
+          <include name="beforeTest"/>
+          <include name="B_Testcase2"/>
+          <include name="E_Testcase5"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases.Px_bg_mainscreen -->
+      <class name="Testcases.Gradients_bg_test">
+        <methods>
+          <include name="E_Testcase5"/>
+          <include name="S_Testcase19"/>
+          <include name="C_Testcase3"/>
+          <include name="V_Testcase22"/>
+          <include name="L_Testcase12"/>
+          <include name="G_Testcase7"/>
+          <include name="P_Testcase16"/>
+          <include name="I_Testcase9"/>
+          <include name="B_Testcase2"/>
+          <include name="U_Testcase21"/>
+          <include name="M_Testcase13"/>
+          <include name="Q_Testcase17"/>
+          <include name="T_Testcase20"/>
+          <include name="J_Testcase10"/>
+          <include name="beforeTest"/>
+          <include name="D_Testcase4"/>
+          <include name="N_Testcase14"/>
+          <include name="H_Testcase8"/>
+          <include name="R_Testcase18"/>
+          <include name="F_Testcase6"/>
+          <include name="A_Testcase1"/>
+          <include name="K_Testcase11"/>
+          <include name="O_Testcase15"/>
+          <include name="W_Testcase23"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases.Gradients_bg_test -->
+      <class name="Testcases.Main_screen_Test">
+        <methods>
+          <include name="A_Testcase1"/>
+          <include name="D_Testcase4"/>
+          <include name="C_Testcase3"/>
+          <include name="beforeTest"/>
+          <include name="B_Testcase2"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases.Main_screen_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

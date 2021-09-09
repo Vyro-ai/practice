@@ -1,0 +1,842 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 73, Failures: 70, Errors: 0, Skipped: 0, Time elapsed: 1,888.744 s <<< FAILURE! - in TestSuite
+D_Testcase4(Testcases.settings_test)  Time elapsed: 1.357 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Contact Us']})
+	at Testcases.settings_test.D_Testcase4(settings_test.java:103)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5bc9ba1d (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.settings_test.D_Testcase4(settings_test.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Contact Us']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.settings_test.D_Testcase4(settings_test.java:103)
+
+E_Testcase5(Testcases.settings_test)  Time elapsed: 2.146 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.Button[@text='Vyro.ai']})
+	at Testcases.settings_test.E_Testcase5(settings_test.java:137)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@e077866 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.settings_test.E_Testcase5(settings_test.java:137)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.Button[@text='Vyro.ai']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.settings_test.E_Testcase5(settings_test.java:137)
+
+F_Testcase6(Testcases.settings_test)  Time elapsed: 1.913 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.google.android.gm:id/subject})
+	at Testcases.settings_test.F_Testcase6(settings_test.java:158)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@13c3c1e1 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.settings_test.F_Testcase6(settings_test.java:158)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.google.android.gm:id/subject})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.settings_test.F_Testcase6(settings_test.java:158)
+
+G_Testcase7(Testcases.settings_test)  Time elapsed: 1.913 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.google.android.gm:id/wc_body_layout})
+	at Testcases.settings_test.G_Testcase7(settings_test.java:179)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@22d6f11 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.settings_test.G_Testcase7(settings_test.java:179)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.google.android.gm:id/wc_body_layout})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.settings_test.G_Testcase7(settings_test.java:179)
+
+H_Testcase8(Testcases.settings_test)  Time elapsed: 2.066 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Help']})
+	at Testcases.settings_test.H_Testcase8(settings_test.java:203)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@773cbf4f (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.settings_test.H_Testcase8(settings_test.java:203)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Help']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.settings_test.H_Testcase8(settings_test.java:203)
+
+I_Testcase9(Testcases.settings_test)  Time elapsed: 1.889 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/ivBack})
+	at Testcases.settings_test.I_Testcase9(settings_test.java:226)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@46f699d5 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.settings_test.I_Testcase9(settings_test.java:226)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/ivBack})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.settings_test.I_Testcase9(settings_test.java:226)
+
+J_Testcase10(Testcases.settings_test)  Time elapsed: 2.026 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Help']})
+	at Testcases.settings_test.J_Testcase10(settings_test.java:248)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@42b64ab8 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.settings_test.J_Testcase10(settings_test.java:248)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Help']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.settings_test.J_Testcase10(settings_test.java:248)
+
+K_Testcase11(Testcases.settings_test)  Time elapsed: 1.999 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.Button[@text='CONTACT US']})
+	at Testcases.settings_test.K_Testcase11(settings_test.java:272)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@184497d1 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.settings_test.K_Testcase11(settings_test.java:272)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.Button[@text='CONTACT US']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.settings_test.K_Testcase11(settings_test.java:272)
+
+L_Testcase12(Testcases.settings_test)  Time elapsed: 2.014 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Rate']})
+	at Testcases.settings_test.L_Testcase12(settings_test.java:303)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@37f21974 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.settings_test.L_Testcase12(settings_test.java:303)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Rate']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.settings_test.L_Testcase12(settings_test.java:303)
+
+M_Testcase13(Testcases.settings_test)  Time elapsed: 31.545 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text='More by Vyro']}) (tried for 30 second(s) with 500 milliseconds interval)
+	at Testcases.settings_test.M_Testcase13(settings_test.java:322)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='More by Vyro']})
+	at Testcases.settings_test.M_Testcase13(settings_test.java:322)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@61019f59 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.settings_test.M_Testcase13(settings_test.java:322)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='More by Vyro']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.settings_test.M_Testcase13(settings_test.java:322)
+
+A_Gallery_Invalid_1(Testcases.Home_Test)  Time elapsed: 31.737 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text='Person']}) (tried for 30 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.A_Gallery_Invalid_1(Home_Test.java:64)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Person']})
+	at Testcases.Home_Test.A_Gallery_Invalid_1(Home_Test.java:64)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@43826ec (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.A_Gallery_Invalid_1(Home_Test.java:64)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Person']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Home_Test.A_Gallery_Invalid_1(Home_Test.java:64)
+
+B_Gallery_Invalid_2(Testcases.Home_Test)  Time elapsed: 1.954 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/backView})
+	at Testcases.Home_Test.B_Gallery_Invalid_2(Home_Test.java:88)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2787de58 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.B_Gallery_Invalid_2(Home_Test.java:88)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/backView})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Home_Test.B_Gallery_Invalid_2(Home_Test.java:88)
+
+C_Gallery_Valid_3(Testcases.Home_Test)  Time elapsed: 31.819 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text='Person']}) (tried for 30 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.C_Gallery_Valid_3(Home_Test.java:112)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Person']})
+	at Testcases.Home_Test.C_Gallery_Valid_3(Home_Test.java:112)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@11bd803 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.C_Gallery_Valid_3(Home_Test.java:112)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Person']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Home_Test.C_Gallery_Valid_3(Home_Test.java:112)
+
+D_Gallery_Valid_4(Testcases.Home_Test)  Time elapsed: 1.973 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //GLButton[@text='Shutter']})
+	at Testcases.Home_Test.D_Gallery_Valid_4(Home_Test.java:134)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@1a480135 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.D_Gallery_Valid_4(Home_Test.java:134)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //GLButton[@text='Shutter']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Home_Test.D_Gallery_Valid_4(Home_Test.java:134)
+
+E_Gallery_Valid_5(Testcases.Home_Test)  Time elapsed: 1.969 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Retry']})
+	at Testcases.Home_Test.E_Gallery_Valid_5(Home_Test.java:153)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@6a282fdd (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.E_Gallery_Valid_5(Home_Test.java:153)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Retry']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Home_Test.E_Gallery_Valid_5(Home_Test.java:153)
+
+F_Gallery_Valid_6(Testcases.Home_Test)  Time elapsed: 1.956 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //GLButton[@text='Shutter']})
+	at Testcases.Home_Test.F_Gallery_Valid_6(Home_Test.java:178)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@36b310aa (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.F_Gallery_Valid_6(Home_Test.java:178)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //GLButton[@text='Shutter']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Home_Test.F_Gallery_Valid_6(Home_Test.java:178)
+
+G_Gallery_Valid_7(Testcases.Home_Test)  Time elapsed: 1.847 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/btnAlbums})
+	at Testcases.Home_Test.G_Gallery_Valid_7(Home_Test.java:203)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@39c1fe0b (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.G_Gallery_Valid_7(Home_Test.java:203)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/btnAlbums})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Home_Test.G_Gallery_Valid_7(Home_Test.java:203)
+
+H_Gallery_Valid_8(Testcases.Home_Test)  Time elapsed: 1.965 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='WebImages']})
+	at Testcases.Home_Test.H_Gallery_Valid_8(Home_Test.java:224)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@263bbfeb (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.H_Gallery_Valid_8(Home_Test.java:224)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='WebImages']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Home_Test.H_Gallery_Valid_8(Home_Test.java:224)
+
+I_Gallery_Valid_9(Testcases.Home_Test)  Time elapsed: 1.849 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/fabPerson})
+	at Testcases.Home_Test.I_Gallery_Valid_9(Home_Test.java:245)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@6240651f (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.I_Gallery_Valid_9(Home_Test.java:245)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/fabPerson})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Home_Test.I_Gallery_Valid_9(Home_Test.java:245)
+
+J_Gallery_Valid_10(Testcases.Home_Test)  Time elapsed: 1.837 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/fabObject})
+	at Testcases.Home_Test.J_Gallery_Valid_10(Home_Test.java:274)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@16a49a5d (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.J_Gallery_Valid_10(Home_Test.java:274)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/fabObject})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Home_Test.J_Gallery_Valid_10(Home_Test.java:274)
+
+K_Gallery_Valid_11(Testcases.Home_Test)  Time elapsed: 1.848 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/tvCancel})
+	at Testcases.Home_Test.K_Gallery_Valid_11(Home_Test.java:335)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4248b963 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Home_Test.K_Gallery_Valid_11(Home_Test.java:335)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/tvCancel})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Home_Test.K_Gallery_Valid_11(Home_Test.java:335)
+
+A_Testcase1(Testcases.Px_bg_Test)  Time elapsed: 5.517 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at Testcases.Px_bg_Test.A_Testcase1(Px_bg_Test.java:55)
+
+B_Testcase2(Testcases.Px_bg_Test)  Time elapsed: 20.366 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/backView})
+	at Testcases.Px_bg_Test.B_Testcase2(Px_bg_Test.java:78)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@ef1695a (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_Test.B_Testcase2(Px_bg_Test.java:78)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/backView})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Px_bg_Test.B_Testcase2(Px_bg_Test.java:78)
+
+C_Testcase3(Testcases.Px_bg_Test)  Time elapsed: 20.439 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at Testcases.Px_bg_Test.C_Testcase3(Px_bg_Test.java:104)
+
+D_Testcase4(Testcases.Px_bg_Test)  Time elapsed: 30.492 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+	at Testcases.Px_bg_Test.D_Testcase4(Px_bg_Test.java:147)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@f679798 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_Test.D_Testcase4(Px_bg_Test.java:147)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Px_bg_Test.D_Testcase4(Px_bg_Test.java:147)
+
+E_Testcase5(Testcases.Px_bg_Test)  Time elapsed: 60.393 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at Testcases.Px_bg_Test.E_Testcase5(Px_bg_Test.java:216)
+
+F_Testcase6(Testcases.Px_bg_Test)  Time elapsed: 30.956 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Web']})
+	at Testcases.Px_bg_Test.F_Testcase6(Px_bg_Test.java:261)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5c8e67b9 (tried for 5 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_Test.F_Testcase6(Px_bg_Test.java:261)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Web']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Px_bg_Test.F_Testcase6(Px_bg_Test.java:261)
+
+G_Testcase7(Testcases.Px_bg_Test)  Time elapsed: 30.076 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at Testcases.Px_bg_Test.G_Testcase7(Px_bg_Test.java:297)
+
+A_Testcase1(Testcases.Px_bg_mainscreen)  Time elapsed: 50.203 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch}) (tried for 30 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_mainscreen.A_Testcase1(Px_bg_mainscreen.java:51)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+	at Testcases.Px_bg_mainscreen.A_Testcase1(Px_bg_mainscreen.java:51)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@bbf9e07 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_mainscreen.A_Testcase1(Px_bg_mainscreen.java:51)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Px_bg_mainscreen.A_Testcase1(Px_bg_mainscreen.java:51)
+
+B_Testcase2(Testcases.Px_bg_mainscreen)  Time elapsed: 20.073 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/backView})
+	at Testcases.Px_bg_mainscreen.B_Testcase2(Px_bg_mainscreen.java:80)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@687e4c93 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_mainscreen.B_Testcase2(Px_bg_mainscreen.java:80)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/backView})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Px_bg_mainscreen.B_Testcase2(Px_bg_mainscreen.java:80)
+
+C_Testcase3(Testcases.Px_bg_mainscreen)  Time elapsed: 40.709 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch}) (tried for 30 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_mainscreen.C_Testcase3(Px_bg_mainscreen.java:106)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+	at Testcases.Px_bg_mainscreen.C_Testcase3(Px_bg_mainscreen.java:106)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@468dda3e (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_mainscreen.C_Testcase3(Px_bg_mainscreen.java:106)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Px_bg_mainscreen.C_Testcase3(Px_bg_mainscreen.java:106)
+
+D_Testcase4(Testcases.Px_bg_mainscreen)  Time elapsed: 41.306 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch}) (tried for 30 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_mainscreen.D_Testcase4(Px_bg_mainscreen.java:134)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+	at Testcases.Px_bg_mainscreen.D_Testcase4(Px_bg_mainscreen.java:134)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3062f9f4 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_mainscreen.D_Testcase4(Px_bg_mainscreen.java:134)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Px_bg_mainscreen.D_Testcase4(Px_bg_mainscreen.java:134)
+
+E_Testcase5(Testcases.Px_bg_mainscreen)  Time elapsed: 30.657 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+	at Testcases.Px_bg_mainscreen.E_Testcase5(Px_bg_mainscreen.java:174)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@44b194fe (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_mainscreen.E_Testcase5(Px_bg_mainscreen.java:174)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Px_bg_mainscreen.E_Testcase5(Px_bg_mainscreen.java:174)
+
+F_Testcase6(Testcases.Px_bg_mainscreen)  Time elapsed: 60.228 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 2, Size: 0
+	at Testcases.Px_bg_mainscreen.F_Testcase6(Px_bg_mainscreen.java:205)
+
+G_Testcase7(Testcases.Px_bg_mainscreen)  Time elapsed: 30.367 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch}) (tried for 30 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_mainscreen.G_Testcase7(Px_bg_mainscreen.java:273)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+	at Testcases.Px_bg_mainscreen.G_Testcase7(Px_bg_mainscreen.java:273)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@36a6bea6 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Px_bg_mainscreen.G_Testcase7(Px_bg_mainscreen.java:273)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Px_bg_mainscreen.G_Testcase7(Px_bg_mainscreen.java:273)
+
+H_Testcase8(Testcases.Px_bg_mainscreen)  Time elapsed: 30.437 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at Testcases.Px_bg_mainscreen.H_Testcase8(Px_bg_mainscreen.java:312)
+
+A_Testcase1(Testcases.Google_bg_Test)  Time elapsed: 30.558 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Web']})
+	at Testcases.Google_bg_Test.A_Testcase1(Google_bg_Test.java:53)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@14982a82 (tried for 5 second(s) with 500 milliseconds interval)
+	at Testcases.Google_bg_Test.A_Testcase1(Google_bg_Test.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Web']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Google_bg_Test.A_Testcase1(Google_bg_Test.java:53)
+
+B_Testcase2(Testcases.Google_bg_Test)  Time elapsed: 20.243 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/backView})
+	at Testcases.Google_bg_Test.B_Testcase2(Google_bg_Test.java:78)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7e7f0216 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Google_bg_Test.B_Testcase2(Google_bg_Test.java:78)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/backView})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Google_bg_Test.B_Testcase2(Google_bg_Test.java:78)
+
+C_Testcase3(Testcases.Google_bg_Test)  Time elapsed: 20.204 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 2, Size: 0
+	at Testcases.Google_bg_Test.C_Testcase3(Google_bg_Test.java:104)
+
+D_Testcase4(Testcases.Google_bg_Test)  Time elapsed: 30.368 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+	at Testcases.Google_bg_Test.D_Testcase4(Google_bg_Test.java:148)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@1e58512c (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Google_bg_Test.D_Testcase4(Google_bg_Test.java:148)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Google_bg_Test.D_Testcase4(Google_bg_Test.java:148)
+
+E_Testcase5(Testcases.Google_bg_Test)  Time elapsed: 60.524 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 2, Size: 0
+	at Testcases.Google_bg_Test.E_Testcase5(Google_bg_Test.java:216)
+
+F_Testcase6(Testcases.Google_bg_Test)  Time elapsed: 30.174 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Web']})
+	at Testcases.Google_bg_Test.F_Testcase6(Google_bg_Test.java:262)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@117525fe (tried for 5 second(s) with 500 milliseconds interval)
+	at Testcases.Google_bg_Test.F_Testcase6(Google_bg_Test.java:262)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Web']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Google_bg_Test.F_Testcase6(Google_bg_Test.java:262)
+
+G_Testcase7(Testcases.Google_bg_Test)  Time elapsed: 30.401 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at Testcases.Google_bg_Test.G_Testcase7(Google_bg_Test.java:298)
+
+A_Testcase1(Testcases.Main_screen_Test)  Time elapsed: 30.526 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch}) (tried for 30 second(s) with 500 milliseconds interval)
+	at Testcases.Main_screen_Test.A_Testcase1(Main_screen_Test.java:72)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+	at Testcases.Main_screen_Test.A_Testcase1(Main_screen_Test.java:72)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7fdab70c (tried for 5 second(s) with 500 milliseconds interval)
+	at Testcases.Main_screen_Test.A_Testcase1(Main_screen_Test.java:72)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/etSearch})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Main_screen_Test.A_Testcase1(Main_screen_Test.java:72)
+
+B_Testcase2(Testcases.Main_screen_Test)  Time elapsed: 30.131 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Pictures']})
+	at Testcases.Main_screen_Test.B_Testcase2(Main_screen_Test.java:100)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7fe82967 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Main_screen_Test.B_Testcase2(Main_screen_Test.java:100)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Pictures']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Main_screen_Test.B_Testcase2(Main_screen_Test.java:100)
+
+C_Testcase3(Testcases.Main_screen_Test)  Time elapsed: 30.01 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+	at Testcases.Main_screen_Test.C_Testcase3(Main_screen_Test.java:126)
+
+D_Testcase4(Testcases.Main_screen_Test)  Time elapsed: 30.471 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.vyroai.AutoCutCut:id/flipWrapper})
+	at Testcases.Main_screen_Test.D_Testcase4(Main_screen_Test.java:162)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2f2bff16 (tried for 5 second(s) with 500 milliseconds interval)
+	at Testcases.Main_screen_Test.D_Testcase4(Main_screen_Test.java:162)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.id: com.vyroai.AutoCutCut:id/flipWrapper})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Main_screen_Test.D_Testcase4(Main_screen_Test.java:162)
+
+A_Testcase1(Testcases.Gradients_bg_test)  Time elapsed: 30.195 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text='Gradients']}) (tried for 30 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.A_Testcase1(Gradients_bg_test.java:42)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Gradients']})
+	at Testcases.Gradients_bg_test.A_Testcase1(Gradients_bg_test.java:42)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5484117b (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.A_Testcase1(Gradients_bg_test.java:42)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Gradients']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.A_Testcase1(Gradients_bg_test.java:42)
+
+B_Testcase2(Testcases.Gradients_bg_test)  Time elapsed: 30.486 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.B_Testcase2(Gradients_bg_test.java:127)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@252a8aae (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.B_Testcase2(Gradients_bg_test.java:127)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.B_Testcase2(Gradients_bg_test.java:127)
+
+C_Testcase3(Testcases.Gradients_bg_test)  Time elapsed: 30.71 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.C_Testcase3(Gradients_bg_test.java:200)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7fb29ca9 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.C_Testcase3(Gradients_bg_test.java:200)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.C_Testcase3(Gradients_bg_test.java:200)
+
+D_Testcase4(Testcases.Gradients_bg_test)  Time elapsed: 30.438 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.D_Testcase4(Gradients_bg_test.java:267)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@333c8791 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.D_Testcase4(Gradients_bg_test.java:267)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.D_Testcase4(Gradients_bg_test.java:267)
+
+E_Testcase5(Testcases.Gradients_bg_test)  Time elapsed: 30.153 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.E_Testcase5(Gradients_bg_test.java:367)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4f89331f (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.E_Testcase5(Gradients_bg_test.java:367)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.E_Testcase5(Gradients_bg_test.java:367)
+
+F_Testcase6(Testcases.Gradients_bg_test)  Time elapsed: 30.115 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.F_Testcase6(Gradients_bg_test.java:437)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@127a7272 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.F_Testcase6(Gradients_bg_test.java:437)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.F_Testcase6(Gradients_bg_test.java:437)
+
+G_Testcase7(Testcases.Gradients_bg_test)  Time elapsed: 30.204 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.G_Testcase7(Gradients_bg_test.java:504)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@534180a2 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.G_Testcase7(Gradients_bg_test.java:504)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.G_Testcase7(Gradients_bg_test.java:504)
+
+H_Testcase8(Testcases.Gradients_bg_test)  Time elapsed: 30.127 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.H_Testcase8(Gradients_bg_test.java:575)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3aa41da1 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.H_Testcase8(Gradients_bg_test.java:575)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.H_Testcase8(Gradients_bg_test.java:575)
+
+I_Testcase9(Testcases.Gradients_bg_test)  Time elapsed: 30.465 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.I_Testcase9(Gradients_bg_test.java:649)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7ab34619 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.I_Testcase9(Gradients_bg_test.java:649)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.I_Testcase9(Gradients_bg_test.java:649)
+
+J_Testcase10(Testcases.Gradients_bg_test)  Time elapsed: 30.277 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.J_Testcase10(Gradients_bg_test.java:726)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@79a04e5f (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.J_Testcase10(Gradients_bg_test.java:726)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.J_Testcase10(Gradients_bg_test.java:726)
+
+K_Testcase11(Testcases.Gradients_bg_test)  Time elapsed: 30.425 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.K_Testcase11(Gradients_bg_test.java:804)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7a485a36 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.K_Testcase11(Gradients_bg_test.java:804)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.K_Testcase11(Gradients_bg_test.java:804)
+
+L_Testcase12(Testcases.Gradients_bg_test)  Time elapsed: 30.072 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.L_Testcase12(Gradients_bg_test.java:901)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7b122839 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.L_Testcase12(Gradients_bg_test.java:901)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.L_Testcase12(Gradients_bg_test.java:901)
+
+M_Testcase13(Testcases.Gradients_bg_test)  Time elapsed: 30.195 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.M_Testcase13(Gradients_bg_test.java:995)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7fb66650 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.M_Testcase13(Gradients_bg_test.java:995)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.M_Testcase13(Gradients_bg_test.java:995)
+
+N_Testcase14(Testcases.Gradients_bg_test)  Time elapsed: 30.148 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.N_Testcase14(Gradients_bg_test.java:1081)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4acc5dff (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.N_Testcase14(Gradients_bg_test.java:1081)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.N_Testcase14(Gradients_bg_test.java:1081)
+
+O_Testcase15(Testcases.Gradients_bg_test)  Time elapsed: 30.394 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.O_Testcase15(Gradients_bg_test.java:1185)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4af45442 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.O_Testcase15(Gradients_bg_test.java:1185)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.O_Testcase15(Gradients_bg_test.java:1185)
+
+P_Testcase16(Testcases.Gradients_bg_test)  Time elapsed: 30.821 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.P_Testcase16(Gradients_bg_test.java:1263)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2e869098 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.P_Testcase16(Gradients_bg_test.java:1263)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.P_Testcase16(Gradients_bg_test.java:1263)
+
+Q_Testcase17(Testcases.Gradients_bg_test)  Time elapsed: 30.126 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.Q_Testcase17(Gradients_bg_test.java:1351)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4cbc2e3b (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.Q_Testcase17(Gradients_bg_test.java:1351)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.Q_Testcase17(Gradients_bg_test.java:1351)
+
+R_Testcase18(Testcases.Gradients_bg_test)  Time elapsed: 30.361 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.R_Testcase18(Gradients_bg_test.java:1455)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@53c6f96d (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.R_Testcase18(Gradients_bg_test.java:1455)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.R_Testcase18(Gradients_bg_test.java:1455)
+
+S_Testcase19(Testcases.Gradients_bg_test)  Time elapsed: 30.482 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.S_Testcase19(Gradients_bg_test.java:1550)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@1cf0cacc (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.S_Testcase19(Gradients_bg_test.java:1550)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.S_Testcase19(Gradients_bg_test.java:1550)
+
+T_Testcase20(Testcases.Gradients_bg_test)  Time elapsed: 30.061 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.T_Testcase20(Gradients_bg_test.java:1651)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4527f70a (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.T_Testcase20(Gradients_bg_test.java:1651)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.T_Testcase20(Gradients_bg_test.java:1651)
+
+U_Testcase21(Testcases.Gradients_bg_test)  Time elapsed: 30.208 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.U_Testcase21(Gradients_bg_test.java:1766)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@25673087 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.U_Testcase21(Gradients_bg_test.java:1766)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.U_Testcase21(Gradients_bg_test.java:1766)
+
+V_Testcase22(Testcases.Gradients_bg_test)  Time elapsed: 30.172 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.V_Testcase22(Gradients_bg_test.java:1840)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@358ab600 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.V_Testcase22(Gradients_bg_test.java:1840)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.V_Testcase22(Gradients_bg_test.java:1840)
+
+W_Testcase23(Testcases.Gradients_bg_test)  Time elapsed: 30.433 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+	at Testcases.Gradients_bg_test.W_Testcase23(Gradients_bg_test.java:1940)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@22ebccb9 (tried for 1 second(s) with 500 milliseconds interval)
+	at Testcases.Gradients_bg_test.W_Testcase23(Gradients_bg_test.java:1940)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Magazine']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: AndroidDriver
+	at Testcases.Gradients_bg_test.W_Testcase23(Gradients_bg_test.java:1940)
+

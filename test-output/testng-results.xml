@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="54" passed="40" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-01T10:11:29 PKT" name="Suite" finished-at="2021-09-01T10:32:34 PKT" duration-ms="1264986">
+    <groups>
+    </groups>
+    <test started-at="2021-09-01T10:11:29 PKT" name="Test" finished-at="2021-09-01T10:32:34 PKT" duration-ms="1264986">
+      <class name="Testcases.object_mainscreen_test">
+        <test-method signature="A_Testcase1()[pri:0, instance:Testcases.object_mainscreen_test@663c9e7a]" started-at="2021-09-01T10:17:46 PKT" name="A_Testcase1" finished-at="2021-09-01T10:17:49 PKT" duration-ms="3126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_Testcase1 -->
+        <test-method signature="B_Testcase2()[pri:0, instance:Testcases.object_mainscreen_test@663c9e7a]" started-at="2021-09-01T10:17:49 PKT" name="B_Testcase2" finished-at="2021-09-01T10:17:57 PKT" duration-ms="7424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_Testcase2 -->
+        <test-method signature="C_Testcase3()[pri:0, instance:Testcases.object_mainscreen_test@663c9e7a]" started-at="2021-09-01T10:17:57 PKT" name="C_Testcase3" finished-at="2021-09-01T10:18:02 PKT" duration-ms="5466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_Testcase3 -->
+      </class> <!-- Testcases.object_mainscreen_test -->
+      <class name="Testcases.px_bg_object_Test">
+        <test-method signature="A_Testcase1()[pri:0, instance:Testcases.px_bg_object_Test@7161d8d1]" started-at="2021-09-01T10:12:49 PKT" name="A_Testcase1" finished-at="2021-09-01T10:12:51 PKT" duration-ms="2649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_Testcase1 -->
+        <test-method signature="B_Testcase2()[pri:0, instance:Testcases.px_bg_object_Test@7161d8d1]" started-at="2021-09-01T10:12:51 PKT" name="B_Testcase2" finished-at="2021-09-01T10:13:03 PKT" duration-ms="11544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_Testcase2 -->
+        <test-method signature="C_Testcase3()[pri:0, instance:Testcases.px_bg_object_Test@7161d8d1]" started-at="2021-09-01T10:13:03 PKT" name="C_Testcase3" finished-at="2021-09-01T10:13:12 PKT" duration-ms="9158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_Testcase3 -->
+        <test-method signature="D_Testcase4()[pri:0, instance:Testcases.px_bg_object_Test@7161d8d1]" started-at="2021-09-01T10:13:12 PKT" name="D_Testcase4" finished-at="2021-09-01T10:13:16 PKT" duration-ms="4401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D_Testcase4 -->
+        <test-method signature="E_Testcase5()[pri:0, instance:Testcases.px_bg_object_Test@7161d8d1]" started-at="2021-09-01T10:13:16 PKT" name="E_Testcase5" finished-at="2021-09-01T10:13:57 PKT" duration-ms="40160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E_Testcase5 -->
+        <test-method signature="F_Testcase6()[pri:0, instance:Testcases.px_bg_object_Test@7161d8d1]" started-at="2021-09-01T10:13:57 PKT" name="F_Testcase6" finished-at="2021-09-01T10:14:09 PKT" duration-ms="11906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- F_Testcase6 -->
+        <test-method signature="G_Testcase7()[pri:0, instance:Testcases.px_bg_object_Test@7161d8d1]" started-at="2021-09-01T10:14:09 PKT" name="G_Testcase7" finished-at="2021-09-01T10:14:18 PKT" duration-ms="9808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G_Testcase7 -->
+      </class> <!-- Testcases.px_bg_object_Test -->
+      <class name="Testcases.google_bg_object_test">
+        <test-method signature="A_Testcase1()[pri:0, instance:Testcases.google_bg_object_test@1cf6d1be]" started-at="2021-09-01T10:16:21 PKT" name="A_Testcase1" finished-at="2021-09-01T10:16:24 PKT" duration-ms="2318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_Testcase1 -->
+        <test-method signature="B_Testcase2()[pri:0, instance:Testcases.google_bg_object_test@1cf6d1be]" started-at="2021-09-01T10:16:24 PKT" name="B_Testcase2" finished-at="2021-09-01T10:16:34 PKT" duration-ms="10868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_Testcase2 -->
+        <test-method signature="C_Testcase3()[pri:0, instance:Testcases.google_bg_object_test@1cf6d1be]" started-at="2021-09-01T10:16:34 PKT" name="C_Testcase3" finished-at="2021-09-01T10:16:40 PKT" duration-ms="5235" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at Testcases.google_bg_object_test.C_Testcase3(google_bg_object_test.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_Testcase3 -->
+        <test-method signature="D_Testcase4()[pri:0, instance:Testcases.google_bg_object_test@1cf6d1be]" started-at="2021-09-01T10:16:41 PKT" name="D_Testcase4" finished-at="2021-09-01T10:16:46 PKT" duration-ms="4494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D_Testcase4 -->
+        <test-method signature="E_Testcase5()[pri:0, instance:Testcases.google_bg_object_test@1cf6d1be]" started-at="2021-09-01T10:16:46 PKT" name="E_Testcase5" finished-at="2021-09-01T10:17:25 PKT" duration-ms="39492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E_Testcase5 -->
+        <test-method signature="F_Testcase6()[pri:0, instance:Testcases.google_bg_object_test@1cf6d1be]" started-at="2021-09-01T10:17:25 PKT" name="F_Testcase6" finished-at="2021-09-01T10:17:37 PKT" duration-ms="11597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- F_Testcase6 -->
+        <test-method signature="G_Testcase7()[pri:0, instance:Testcases.google_bg_object_test@1cf6d1be]" started-at="2021-09-01T10:17:37 PKT" name="G_Testcase7" finished-at="2021-09-01T10:17:46 PKT" duration-ms="9360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G_Testcase7 -->
+      </class> <!-- Testcases.google_bg_object_test -->
+      <class name="Testcases.Home_object_Test">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:11:29 PKT" name="beforeTest" finished-at="2021-09-01T10:11:44 PKT" duration-ms="14453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="A_Gallery_1()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:11:44 PKT" name="A_Gallery_1" finished-at="2021-09-01T10:11:51 PKT" duration-ms="7701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_Gallery_1 -->
+        <test-method signature="B_Gallery_2()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:11:51 PKT" name="B_Gallery_2" finished-at="2021-09-01T10:11:52 PKT" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_Gallery_2 -->
+        <test-method signature="C_Gallery_Valid_3()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:11:52 PKT" name="C_Gallery_Valid_3" finished-at="2021-09-01T10:11:58 PKT" duration-ms="5342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_Gallery_Valid_3 -->
+        <test-method signature="D_Gallery_Valid_4()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:11:58 PKT" name="D_Gallery_Valid_4" finished-at="2021-09-01T10:12:00 PKT" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D_Gallery_Valid_4 -->
+        <test-method signature="E_Gallery_Valid_5()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:12:00 PKT" name="E_Gallery_Valid_5" finished-at="2021-09-01T10:12:01 PKT" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E_Gallery_Valid_5 -->
+        <test-method signature="F_Gallery_Valid_6()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:12:01 PKT" name="F_Gallery_Valid_6" finished-at="2021-09-01T10:12:13 PKT" duration-ms="12008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- F_Gallery_Valid_6 -->
+        <test-method signature="G_Gallery_7()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:12:13 PKT" name="G_Gallery_7" finished-at="2021-09-01T10:12:17 PKT" duration-ms="3707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G_Gallery_7 -->
+        <test-method signature="H_Gallery_8()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:12:17 PKT" name="H_Gallery_8" finished-at="2021-09-01T10:12:19 PKT" duration-ms="2490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- H_Gallery_8 -->
+        <test-method signature="I_Gallery_9()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:12:19 PKT" name="I_Gallery_9" finished-at="2021-09-01T10:12:20 PKT" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- I_Gallery_9 -->
+        <test-method signature="J_Gallery_10()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:12:20 PKT" name="J_Gallery_10" finished-at="2021-09-01T10:12:31 PKT" duration-ms="11127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- J_Gallery_10 -->
+        <test-method signature="K_Gallery_11()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:12:31 PKT" name="K_Gallery_11" finished-at="2021-09-01T10:12:49 PKT" duration-ms="17470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- K_Gallery_11 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Testcases.Home_object_Test@7ef82753]" started-at="2021-09-01T10:32:33 PKT" name="afterTest" finished-at="2021-09-01T10:32:34 PKT" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Testcases.Home_object_Test -->
+      <class name="Testcases.Objects_backgrounds_Test">
+        <test-method signature="A_Testcase1()[pri:0, instance:Testcases.Objects_backgrounds_Test@19e4653c]" started-at="2021-09-01T10:18:02 PKT" name="A_Testcase1" finished-at="2021-09-01T10:21:05 PKT" duration-ms="182331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_Testcase1 -->
+        <test-method signature="B_Testcase2()[pri:0, instance:Testcases.Objects_backgrounds_Test@19e4653c]" started-at="2021-09-01T10:21:05 PKT" name="B_Testcase2" finished-at="2021-09-01T10:22:57 PKT" duration-ms="112783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_Testcase2 -->
+        <test-method signature="C_Testcase3()[pri:0, instance:Testcases.Objects_backgrounds_Test@19e4653c]" started-at="2021-09-01T10:22:57 PKT" name="C_Testcase3" finished-at="2021-09-01T10:24:53 PKT" duration-ms="115554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_Testcase3 -->
+        <test-method signature="D_Testcase4()[pri:0, instance:Testcases.Objects_backgrounds_Test@19e4653c]" started-at="2021-09-01T10:24:53 PKT" name="D_Testcase4" finished-at="2021-09-01T10:26:51 PKT" duration-ms="118273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D_Testcase4 -->
+        <test-method signature="E_Testcase5()[pri:0, instance:Testcases.Objects_backgrounds_Test@19e4653c]" started-at="2021-09-01T10:26:51 PKT" name="E_Testcase5" finished-at="2021-09-01T10:29:06 PKT" duration-ms="135002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E_Testcase5 -->
+        <test-method signature="F_Testcase6()[pri:0, instance:Testcases.Objects_backgrounds_Test@19e4653c]" started-at="2021-09-01T10:29:06 PKT" name="F_Testcase6" finished-at="2021-09-01T10:31:10 PKT" duration-ms="124252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- F_Testcase6 -->
+        <test-method signature="G_Testcase7()[pri:0, instance:Testcases.Objects_backgrounds_Test@19e4653c]" started-at="2021-09-01T10:31:10 PKT" name="G_Testcase7" finished-at="2021-09-01T10:32:01 PKT" duration-ms="50963" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 1 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at java.base/jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at io.appium.java_client.pagefactory.ElementListInterceptor.getObject(ElementListInterceptor.java:40)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfAListOfElements.intercept(InterceptorOfAListOfElements.java:49)
+at $java.util.ArrayList$$EnhancerByCGLIB$$b5855c01.get(<generated>)
+at Testcases.Objects_backgrounds_Test.G_Testcase7(Objects_backgrounds_Test.java:522)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G_Testcase7 -->
+        <test-method signature="H_Testcase8()[pri:0, instance:Testcases.Objects_backgrounds_Test@19e4653c]" started-at="2021-09-01T10:32:02 PKT" name="H_Testcase8" finished-at="2021-09-01T10:32:32 PKT" duration-ms="30020" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Shadows']})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Shadows']})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
+at Testcases.Objects_backgrounds_Test.H_Testcase8(Objects_backgrounds_Test.java:591)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5da57a64 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 31 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Shadows']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Vyro-MacBook.local', ip: 'fe80:0:0:0:45f:1a2f:8ab5:37b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- H_Testcase8 -->
+      </class> <!-- Testcases.Objects_backgrounds_Test -->
+      <class name="Testcases.px_bg_object_mainscreen">
+        <test-method signature="A_Testcase1()[pri:0, instance:Testcases.px_bg_object_mainscreen@74e28667]" started-at="2021-09-01T10:14:18 PKT" name="A_Testcase1" finished-at="2021-09-01T10:14:22 PKT" duration-ms="4162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_Testcase1 -->
+        <test-method signature="B_Testcase2()[pri:0, instance:Testcases.px_bg_object_mainscreen@74e28667]" started-at="2021-09-01T10:14:22 PKT" name="B_Testcase2" finished-at="2021-09-01T10:14:33 PKT" duration-ms="10155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_Testcase2 -->
+        <test-method signature="C_Testcase3()[pri:0, instance:Testcases.px_bg_object_mainscreen@74e28667]" started-at="2021-09-01T10:14:33 PKT" name="C_Testcase3" finished-at="2021-09-01T10:15:06 PKT" duration-ms="33701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_Testcase3 -->
+        <test-method signature="D_Testcase4()[pri:0, instance:Testcases.px_bg_object_mainscreen@74e28667]" started-at="2021-09-01T10:15:06 PKT" name="D_Testcase4" finished-at="2021-09-01T10:15:14 PKT" duration-ms="7958" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at Testcases.px_bg_object_mainscreen.D_Testcase4(px_bg_object_mainscreen.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D_Testcase4 -->
+        <test-method signature="E_Testcase5()[pri:0, instance:Testcases.px_bg_object_mainscreen@74e28667]" started-at="2021-09-01T10:15:15 PKT" name="E_Testcase5" finished-at="2021-09-01T10:15:19 PKT" duration-ms="3864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E_Testcase5 -->
+        <test-method signature="F_Testcase6()[pri:0, instance:Testcases.px_bg_object_mainscreen@74e28667]" started-at="2021-09-01T10:15:19 PKT" name="F_Testcase6" finished-at="2021-09-01T10:15:59 PKT" duration-ms="39760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- F_Testcase6 -->
+        <test-method signature="G_Testcase7()[pri:0, instance:Testcases.px_bg_object_mainscreen@74e28667]" started-at="2021-09-01T10:15:59 PKT" name="G_Testcase7" finished-at="2021-09-01T10:16:12 PKT" duration-ms="12780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G_Testcase7 -->
+        <test-method signature="H_Testcase8()[pri:0, instance:Testcases.px_bg_object_mainscreen@74e28667]" started-at="2021-09-01T10:16:12 PKT" name="H_Testcase8" finished-at="2021-09-01T10:16:21 PKT" duration-ms="9434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- H_Testcase8 -->
+      </class> <!-- Testcases.px_bg_object_mainscreen -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

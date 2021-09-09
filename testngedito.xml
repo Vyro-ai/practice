@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+<listener class-name="Listner.TestListener3"/>
+
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+    
+    <class name="Testcases.editor_home_Test"/>
+    <class name="Testcases.Discard_dialogue_Test"/>
+     <class name="Testcases.crop_two"/>
+    <class name="Testcases.Filters_module"/>
+   <class name="Testcases.Overlay_view"/>
+      <class name="Testcases.Adjustments_test"/>
+       <class name="Testcases.Structures"/>
+      
+         </classes>
+  </test> 
+  
+  
+  
+  <test thread-count="5" name="Test 2">
+    <classes>
+    
+      
+      
+       <class name="Testcases.editor_home_Test"/>
+     
+      <class name="Testcases.Fit_test"/>
+      <class name="Testcases.Stickers_test"/>
+       <class name="Testcases.Text_test"/>
+       <class name="Testcases.savescreen_test"/>
+    
+     
+
+     
+     
+  
+  
+      
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
