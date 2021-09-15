@@ -8,13 +8,13 @@
   <test thread-count="5" name="Test">
    <classes>
       <class name="Testcases.Home_object_Test"/>
-    
-     <class name="Testcases.px_bg_object_Test"/>
+ 
+      <class name="Testcases.google_bg_object_test"/>
     <class name="Testcases.px_bg_object_mainscreen"/> 
-         <class name="Testcases.google_bg_object_test"/>
+        
      
          <class name="Testcases.object_mainscreen_test"/> 
-         
+         <class name="Testcases.px_bg_object_Test"/>
       
         <class name="Testcases.Objects_backgrounds_Test"/>
    <!--        <class name="Testcases.Magazine_bg"/>
