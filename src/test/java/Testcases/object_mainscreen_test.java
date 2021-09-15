@@ -29,7 +29,7 @@ public class object_mainscreen_test extends baseclasstwo {
 			 
 			  
 			 gradient_tab.click();
-			 px_layout.get(3).click();
+			 px_layout.get(2).click();
 			 if(galley_tab.isDisplayed()==true) {
 				 
 				 System.out.println("TC:1 Gallery is displayed !!!");
@@ -78,7 +78,7 @@ public class object_mainscreen_test extends baseclasstwo {
 		  EditImageScreen element1=new EditImageScreen((AndroidDriver) driver);
 		  List<MobileElement> px_layout=element1.Px_layout;
 		MobileElement Searchbar=element1.search_bar;
-		px_layout.get(3).click();
+		px_layout.get(2).click();
 		//	 wait(Searchbar);
 		albums_tab.click();
 		download_folder.click();
