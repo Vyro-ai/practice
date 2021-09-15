@@ -34,12 +34,12 @@ public class px_bg_object_Test extends baseclasstwo {
 		  pxbg element2=new pxbg((AndroidDriver)driver);
 		  MobileElement google_text=  element2.google_header;
 		 
-	
+	MobileElement gradient_tab=element1.gradient_tab;
 		 
 		  
-	//	 gradient_tab.click();
+		 gradient_tab.click();
 			 
-		  px_layout.get(1).click();
+		  px_layout.get(3).click();
 			 wait(google_text);
 			 if(google_text.isDisplayed()==true) {
 				 
@@ -88,7 +88,7 @@ public class px_bg_object_Test extends baseclasstwo {
 	//	  categories.get(2).click();
 		  pxbg element2=new pxbg((AndroidDriver)driver);
 		  MobileElement google_text=  element2.google_header;
-		  px_layout.get(1).click();
+		  px_layout.get(3).click();
 		  wait(google_text);
 		  System.out.println("image view opened");
 		  
@@ -247,7 +247,7 @@ action.longPress(new ElementOption().withElement(dragview))
 		  MobileElement gradient_tab=element1.gradient_tab;
 		  gradient_tab.click();
 			 
-		  px_layout.get(1).click();
+		  px_layout.get(3).click();
 			 Dimension size = driver.manage().window().getSize();
 
 		        int last = (int) (size.height/3);
