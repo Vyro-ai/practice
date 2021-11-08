@@ -58,9 +58,11 @@ public class baseclasstwo {
 		  property.load(inputstream);
 	  DesiredCapabilities cap=new DesiredCapabilities();
 		cap.setCapability("platformName", "Android");
-		cap.setCapability("deviceName", "Galaxy Note8");
+		cap.setCapability("deviceName", "MyAVD");
+		// cap.setCapability("deviceName", "Galaxy Note8");
 	//	cap.setCapability("automationName", "UiAutomator2");
-		cap.setCapability("udid", "ce06171653f0281f027e");
+		// cap.setCapability("udid", "ce06171653f0281f027e");
+		cap.setCapability("udid", "emulator-5554");
 	//	cap.setCapability("deviceName", "Galaxy A31");
 		//	cap.setCapability("automationName", "UiAutomator2");
 	//		cap.setCapability("udid", "R58N500V2BW");
