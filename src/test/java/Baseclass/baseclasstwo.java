@@ -51,11 +51,11 @@ public class baseclasstwo {
 	  datetime=utils.dateTime();
 	  try {
 		 
-		  property=new Properties();
-		  String propertiesFilename="config.properties";
-		  //input stream object to get properties file
-		  inputstream= getClass().getClassLoader().getResourceAsStream(propertiesFilename);
-		  property.load(inputstream);
+		  // property=new Properties();
+		  // String propertiesFilename="config.properties";
+		  // //input stream object to get properties file
+		  // inputstream= getClass().getClassLoader().getResourceAsStream(propertiesFilename);
+		  // property.load(inputstream);
 	  DesiredCapabilities cap=new DesiredCapabilities();
 		cap.setCapability("platformName", "Android");
 		cap.setCapability("deviceName", "emulator-5554");
