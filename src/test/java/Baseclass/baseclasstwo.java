@@ -58,7 +58,7 @@ public class baseclasstwo {
 		  property.load(inputstream);
 	  DesiredCapabilities cap=new DesiredCapabilities();
 		cap.setCapability("platformName", "Android");
-		cap.setCapability("deviceName", "MyAVD");
+		cap.setCapability("deviceName", "emulator-5554");
 		// cap.setCapability("deviceName", "Galaxy Note8");
 	//	cap.setCapability("automationName", "UiAutomator2");
 		// cap.setCapability("udid", "ce06171653f0281f027e");
@@ -89,7 +89,7 @@ public class baseclasstwo {
 				
 		cap.setCapability("noReset", true);
 		cap.setCapability("fullReset", "false");
-		cap.setCapability("autoGrantPermissions", true); 
+		cap.setCapability("autoGrantPermissions", true);
 		URL url=new URL("http://0.0.0.0:4723/wd/hub");
 		driver= new AndroidDriver<AndroidElement>(url,cap);
 		 //Setup of Applitools Eyes

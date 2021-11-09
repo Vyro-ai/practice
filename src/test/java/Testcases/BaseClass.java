@@ -49,9 +49,11 @@ public class BaseClass {
 		  property.load(inputstream);
 	  DesiredCapabilities cap=new DesiredCapabilities();
 		cap.setCapability("platformName", "Android");
-		cap.setCapability("deviceName", "Galaxy Note8");
+		// cap.setCapability("deviceName", "Galaxy Note8");
+		cap.setCapability("deviceName", "emulator-5554");
 	//	cap.setCapability("automationName", "UiAutomator2");
-		cap.setCapability("udid", "ce0717177b2ad026017e");
+		// cap.setCapability("udid", "ce0717177b2ad026017e");
+		cap.setCapability("udid", "emulator-5554");
 		cap.setCapability("automationName", property.getProperty("androidAutomationName"));
 		cap.setCapability("autoGrantPermissions", true); 
 		//cap.setCapability("autoAcceptAlerts", "true");
