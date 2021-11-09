@@ -94,7 +94,7 @@ public class baseclasstwo {
 	//	cap.setCapability("skipDeviceInitialization",true);
 		
 		cap.setCapability("appPackage", "com.vyroai.AutoCutCut");
-    cap.setCapability("appActivity","com.vyroai.AutoCutCut.Activities.StartActivity");
+    cap.setCapability("appActivity","com.vyroai.autocutcut.Activities.StartActivity");
 		cap.setCapability("noReset", true);
 		cap.setCapability("fullReset", "false");
 		cap.setCapability("autoGrantPermissions", true);
