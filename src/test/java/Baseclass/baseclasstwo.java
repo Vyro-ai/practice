@@ -38,7 +38,7 @@ import utils.Testutils;
 
 public class baseclasstwo {
 
-	    public  static RemoteWebDriver<AndroidElement>  driver;
+	    public  static RemoteWebDriver driver;
 	protected Properties property;
 	protected static String datetime;
 	InputStream inputstream;
@@ -94,7 +94,7 @@ public class baseclasstwo {
 		cap.setCapability("fullReset", "false");
 		cap.setCapability("autoGrantPermissions", true);
 		URL url=new URL("http://localhost:4723/wd/hub");
-		driver= new RemoteWebDriver<AndroidElement>(url,cap);
+		driver= new RemoteWebDriver(url,cap);
 		 //Setup of Applitools Eyes
        
 
