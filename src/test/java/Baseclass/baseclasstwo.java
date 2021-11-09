@@ -28,6 +28,7 @@ import com.applitools.eyes.selenium.Eyes;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 import pageobjects.Discard_dialogue;
@@ -37,7 +38,7 @@ import utils.Testutils;
 
 public class baseclasstwo {
 
-	    public  static AndroidDriver<AndroidElement>  driver;
+	    public  static RemoteWebDriver<AndroidElement>  driver;
 	protected Properties property;
 	protected static String datetime;
 	InputStream inputstream;
@@ -92,8 +93,8 @@ public class baseclasstwo {
 		cap.setCapability("noReset", true);
 		cap.setCapability("fullReset", "false");
 		cap.setCapability("autoGrantPermissions", true);
-		URL url=new URL("http://3.21.194.17:4723/wd/hub");
-		driver= new AndroidDriver<AndroidElement>(url,cap);
+		URL url=new URL("http://localhost:4723/wd/hub");
+		driver= new RemoteWebDriver<AndroidElement>(url,cap);
 		 //Setup of Applitools Eyes
        
 
