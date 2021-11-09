@@ -66,12 +66,12 @@ public class baseclasstwo {
 	//	cap.setCapability("deviceName", "Galaxy A31");
 		//	cap.setCapability("automationName", "UiAutomator2");
 	//		cap.setCapability("udid", "R58N500V2BW");
-		// cap.setCapability("automationName", property.getProperty("androidAutomationName"));
+		cap.setCapability("automationName", "UiAutomator1");
 		cap.setCapability("autoGrantPermissions", true); 
 		//cap.setCapability("autoAcceptAlerts", true);
 		
 		cap.setCapability("newCommandTimeout", 360);
-		   cap.setCapability("skipUnlock", "true");
+		cap.setCapability("skipUnlock", "true");
 		//   cap.setCapability("systemPort", 8210);
 		   
 		 
