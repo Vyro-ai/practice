@@ -81,12 +81,14 @@ public class baseclasstwo {
 	//	cap.setCapability("app", "path");
 	//	URL apppath=getClass().getClassLoader().getResource(property.getProperty("androidAppLocation"));
 	//	cap.setCapability("app", "apppath");
-		String path=System.getProperty("user.dir")+ File.separator+ "src"+ File.separator+ "main"+ File.separator+ "resources"+ File.separator+ "BG-v3.1.0.apk";
-		cap.setCapability("app", path);
+		// String path=System.getProperty("user.dir")+ File.separator+ "src"+ File.separator+ "main"+ File.separator+ "resources"+ File.separator+ "BG-v3.1.0.apk";
+		// cap.setCapability("app", path);
 	//	cap.setCapability("appPackage", property.getProperty("androidAppPackage"));
 	//	cap.setCapability("appActivity", property.getProperty("androidAppActivity"));
 	//	cap.setCapability("skipDeviceInitialization",true);
-				
+		
+		cap.setCapability("appPackage", "com.vyroai.AutoCutCut");
+    cap.setCapability("appActivity","com.vyroai.AutoCutCut.Activities.StartActivity");
 		cap.setCapability("noReset", true);
 		cap.setCapability("fullReset", "false");
 		cap.setCapability("autoGrantPermissions", true);

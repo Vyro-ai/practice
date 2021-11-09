@@ -10,6 +10,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import pageobjects.Home_page;
 
 import org.testng.annotations.BeforeMethod;
@@ -67,10 +68,12 @@ public class BaseClass {
 	//	cap.setCapability("app", "path");
 	//	URL apppath=getClass().getClassLoader().getResource(property.getProperty("androidAppLocation"));
 	//	cap.setCapability("app", "apppath");
-		String path=System.getProperty("user.dir")+ File.separator+ "src"+ File.separator+ "main"+ File.separator+ "resources"+ File.separator+ "bg-v3.0.1.apk";
-		cap.setCapability("app", path);
-		cap.setCapability("appPackage", property.getProperty("androidAppPackage"));
-		cap.setCapability("appActivity", property.getProperty("androidAppActivity"));
+		// String path=System.getProperty("user.dir")+ File.separator+ "src"+ File.separator+ "main"+ File.separator+ "resources"+ File.separator+ "bg-v3.0.1.apk";
+		// cap.setCapability("app", path);
+		// cap.setCapability("appPackage", property.getProperty("androidAppPackage"));
+		// cap.setCapability("appActivity", property.getProperty("androidAppActivity"));
+		cap.setCapability("appPackage", "com.vyroai.AutoCutCut");
+    cap.setCapability("appActivity","com.vyroai.AutoCutCut.Activities.StartActivity");
 		URL url=new URL(property.getProperty("appiumUrl"));
 		driver= new AndroidDriver<AndroidElement>(url,cap);
 	
