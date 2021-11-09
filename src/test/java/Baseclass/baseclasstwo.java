@@ -92,7 +92,7 @@ public class baseclasstwo {
 		cap.setCapability("noReset", true);
 		cap.setCapability("fullReset", "false");
 		cap.setCapability("autoGrantPermissions", true);
-		URL url=new URL("http://127.0.0.1:4723/wd/hub");
+		URL url=new URL("http://3.21.194.17:4723/wd/hub");
 		driver= new AndroidDriver<AndroidElement>(url,cap);
 		 //Setup of Applitools Eyes
        
