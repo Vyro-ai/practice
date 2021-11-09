@@ -72,6 +72,11 @@ public class baseclasstwo {
 		
 		cap.setCapability("newCommandTimeout", 360);
 		cap.setCapability("skipUnlock", "true");
+		cap.setCapability("adbExecTimeout", 60000);
+		cap.setCapability("appWaitDuration", 40000);
+		cap.setCapability("deviceReadyTimeout", 30);
+		cap.setCapability("androidInstallTimeout", 120000);
+
 		//   cap.setCapability("systemPort", 8210);
 		   
 		 
