@@ -77,6 +77,11 @@ public class baseclasstwo {
 		cap.setCapability("deviceReadyTimeout", 30);
 		cap.setCapability("androidInstallTimeout", 120000);
 		cap.setCapability("uiautomator2ServerInstallTimeout", 1200000);
+		cap.setCapability("appWaitDuration", 1200000);
+		cap.setCapability("deviceReadyTimeout", 1200000);
+		cap.setCapability("deviceReadyTimeout", 1200000);
+		cap.setCapability("deviceReadyTimeout", 1200000);
+		cap.setCapability("deviceReadyTimeout", 1200000);
 
 		//   cap.setCapability("systemPort", 8210);
 		   
