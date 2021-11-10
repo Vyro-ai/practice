@@ -106,6 +106,12 @@ public class baseclasstwo {
 		URL url=new URL("http://localhost:4723/wd/hub");
 		driver= new AndroidDriver<AndroidElement>(url,cap);
 		 //Setup of Applitools Eyes
+
+		WebDriverWait wait = new WebDriverWait(driver, 480);
+			wait.until(ExpectedConditions.elementToBeClickable(By
+        .xpath("//android.widget.TextView[@text='Person']")));
+
+
        
 
 	  }
@@ -151,6 +157,16 @@ public class baseclasstwo {
   public String getDeviceName() {
 	  return deviceName.get();
   }
+
+  public void screenshot_new(String filename) throws IOException, InterruptedException {
+		
+		// String destDir = "editorscreenshots";
+	    File scr = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	//    new File(destDir).mkdirs();
+	    File dest = new File("Saif_Screenshots/" + filename+".png");
+	    FileUtils.copyFile(scr, dest);
+	}
+
   public void screenshot(String filename) throws IOException, InterruptedException {
 		
 		String destDir = "editorscreenshots";
