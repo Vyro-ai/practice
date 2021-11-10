@@ -23,8 +23,8 @@ public class editor_home_Test extends baseclasstwo{
 	
 	  @Test
 	  public void A_editor_home_1() throws InterruptedException, IOException {
-		  Thread.sleep(600000);
-		  screenshot_new("MyScreenshot");
+		  // Thread.sleep(600000);
+		  // screenshot_new("MyScreenshot");
 		  Home_page element=new Home_page((AndroidDriver) driver);
 			
 		  EditImageScreen element1=new EditImageScreen((AndroidDriver) driver);

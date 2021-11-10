@@ -107,9 +107,9 @@ public class baseclasstwo {
 		driver= new AndroidDriver<AndroidElement>(url,cap);
 		 //Setup of Applitools Eyes
 
-		WebDriverWait wait = new WebDriverWait(driver, 480);
-			wait.until(ExpectedConditions.elementToBeClickable(By
-        .xpath("//android.widget.TextView[@text='Person']")));
+		// WebDriverWait wait = new WebDriverWait(driver, 480);
+		// 	wait.until(ExpectedConditions.elementToBeClickable(By
+  //       .xpath("//android.widget.TextView[@text='Person']")));
 
 
        
